@@ -13,7 +13,7 @@ RUN npm install
 COPY . .
 
 # Expone la aplicaciÃon en el puerto 5000
-EXPOSE 5000
+EXPOSE 6000
 
 # Inicia la aplicacion al iniciar al contenedor
 CMD ["npm", "start"]
