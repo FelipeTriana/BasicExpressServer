@@ -1,4 +1,4 @@
-# Establece la imagen base
+# Establece la imagenBase
 FROM node
 
 # Se estable el directorio de trabajo
