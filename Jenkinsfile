@@ -23,7 +23,7 @@ pipeline{
        stage('RunApp'){
               steps {
                      sh '''
-                           bash -c "npm start"
+                           bash -c "npm start & ls"
                      '''
               }
        }
