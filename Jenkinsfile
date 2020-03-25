@@ -9,7 +9,7 @@ pipeline{
        stage('InstallRequirements'){
               steps {
                      sh '''
-                           bash -c "ls"
+                           bash -c "ls /adasdasd "
                      '''
               }
        }
@@ -23,7 +23,7 @@ pipeline{
        stage('RunApp'){
               steps {
                      sh '''
-                           bash -c "node app &"
+                           bash -c "npm start &"
                      '''
               }
        }
