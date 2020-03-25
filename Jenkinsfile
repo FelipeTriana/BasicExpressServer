@@ -9,7 +9,7 @@ pipeline{
        stage('InstallRequirements'){
               steps {
                      sh '''
-                           bash -c "ls /adasdasd "
+                           bash -c "npm i"
                      '''
               }
        }
