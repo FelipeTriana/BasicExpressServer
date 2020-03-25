@@ -9,7 +9,7 @@ pipeline{
        stage('InstallRequirements'){
               steps {
                      sh '''
-                           bash -c "npm i"
+                           bash -c "ls"
                      '''
               }
        }
