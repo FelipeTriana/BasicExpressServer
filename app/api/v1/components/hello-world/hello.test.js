@@ -9,7 +9,7 @@ describe('Basic tests', () => {
 
   it('Should retrieve a Hello world! as a message', (done) => {
     const res = Hello.sayHello();
-    expect(res.message).toBe('Hello');
+    expect(res.message).toBe('Bye');
     done();
   });
 });
