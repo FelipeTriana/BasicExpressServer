@@ -1,5 +1,7 @@
 pipeline{
- agent any
+ agent {
+	label 'FTG'
+	}
  stages{
        stage('Checkout-git'){
               steps {
